@@ -35,18 +35,6 @@ export default function Home() {
       <div className="max-w-5xl mx-auto px-8">
         <HoverEffect items={recipies} />
       </div>
-      <div className="max-w-5xl mx-auto px-8">
-        <HoverEffect items={recipies} />
-      </div>
-      <div className="max-w-5xl mx-auto px-8">
-        <HoverEffect items={recipies} />
-      </div>
-      <div className="max-w-5xl mx-auto px-8">
-        <HoverEffect items={recipies} />
-      </div>
-      <div className="max-w-5xl mx-auto px-8">
-        <HoverEffect items={recipies} />
-      </div>
     </div>
   );
 }
