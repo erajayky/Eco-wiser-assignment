@@ -19,7 +19,7 @@ const page = async () => {
           </div>
         </Link>
       </div>
-      <div className="flex flex-row w-[90vw] mt-10">
+      <div className="flex flex-row flex-wrap w-[90vw] mt-10">
         {recipies.map((recipie, index) => {
           return (
             <Link href={`/recipie/${recipie._id}`} key={`recipieList${index}`}>
